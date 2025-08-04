@@ -1,0 +1,88 @@
+!------------------------------------------!
+!----Filters for coindesk.com------
+coindesk.com##.ah280px
+coindesk.com###highimpact-ad-container
+coindesk.com###highimpact:upward(1)
+coindesk.com###nativehp_mobile:upward(3)
+coindesk.com###homepage_mid_mobile_0:upward(3)
+coindesk.com###article_summary:upward(2)
+coindesk.com###article_mobile_1:upward(2)
+||prd.jwpltx.com^
+||a.pub.network^
+||bam.nr-data.net^
+!------------------------------------------!
+||waqasyounis.com
+!------------------------------------------!
+!----Filters for pornhub.com------
+pornhub.com##.premiumPromoBannerImage.js-premiumPromoBannerImage
+pornhub.com##.removeAdLink.promoBannerClassAnchor
+pornhub.com##.premiumPromoBannerClose.ph-icon-cross
+pornhub.com##.clearfix.noBottom
+pornhub.com##.clearfix.watchpageAd
+pornhub.com##.videoWrapper.positionRelative > .adsbytrafficjunky
+/pics/promobanners/000/006/381/1735071423.jpg
+||landing.letsdoeit.com^
+!------------------------------------------!
+
+!------------------------------------------!
+!Missing filters for Ad blocker testing sites
+||hotjar.com^
+||sentry-cdn.com^
+||js.sentry-cdn.com^
+||an.yandex.ru^
+||ymatuhin.ru^
+/banners/pr_advertising_ads_banner
+||bannersnack.com^
+||cloudflareinsights.com^
+||deploy.mopinion.com^
+||cdn.iubenda.com^
+||adcolony.com^
+||ads-twitter.com^
+||samsung-com.112.2o7.ne^
+!------------------------------------------!
+
+!------------------------------------------!
+!---youporn.com ,tube8.com---
+youporn.com,tube8.com###mainWrapper > :nth-child(2)
+||static.trafficjunky.com^
+!------------------------------------------!
+
+!------------------------------------------!
+!--usatoday.com---
+usatoday.com##aside[aria-label="advertisement"]:upward(1)
+usatoday.com##body > main > aside
+usatoday.com##body > article > aside
+usatoday.com##body > article > div.gnt_ar_b > aside.gnt_m.gnt_x.gnt_x__bv
+!------------------------------------------!
+
+!------------------------------------------!
+!--Yahoo.com---
+!--updated on 07 March, 2025
+yahoo.com##.sticky[class*="top-"]:has(style)
+!------------------------------------------!
+
+!------------------------------------------!
+!---fortune.com added on feb 17,2025---
+!---filter for homepage top ad space --
+fortune.com##.fiWNxs
+!---filter for homepage news list ad space --
+fortune.com##.ddsPZo
+!-------------------------------------------!
+
+!------------------------------------------!
+!---buzzfeed.com added on feb 17,2025---
+!---filter for homepage news list ad space --
+buzzfeed.com##.ad-placeholder
+!-------------------------------------------!
+
+!------------------------------------------!
+!---redtube.com added on feb 17,2025---
+!---filter for homepage top ad space --
+redtube.com##.tm_ad_header
+!-------------------------------------------!
+
+!------------------------------------------!
+!---youtube.com added on march 12,2025---
+!---filter for homepage top ad space --
+youtube.com,m.youtube.com##ad-slot-renderer
+!-------------------------------------------!
